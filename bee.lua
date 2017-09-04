@@ -18,7 +18,7 @@ mobs:register_mob("mobs_animal:bee", {
 	makes_footstep_sound = false,
 	sounds = {
 		random = "mobs_bee",
-	},	
+	},
 	walk_velocity = 1,
 	jump = true,
 	drops = {
@@ -47,6 +47,7 @@ mobs:spawn({
 	min_light = 10,
 	chance = 9000,
 	min_height = 0,
+	max_height = 20,
 	day_toggle = true,
 })
 

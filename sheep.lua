@@ -49,7 +49,7 @@ for _, col in ipairs(all_colours) do
 		jump = true,
 		drops = {
 			{name = "mobs:meat_raw", chance = 1, min = 1, max = 2},
-			--{name = "wool:"..col[1], chance = 1, min = 1, max = 1},
+			{name = "wool:"..col[1], chance = 5, min = 1, max = 3},
 		},
 		water_damage = 1,
 		lava_damage = 5,
@@ -197,9 +197,9 @@ mobs:spawn({
 	name = "mobs_animal:sheep_white",
 	nodes = {spawn_on},
 	min_light = 10,
-	chance = 15000,
+	chance = 5000,
 	min_height = 0,
-	max_height = 31000,
+	max_height = 20,
 	day_toggle = true,
 })
 

@@ -73,6 +73,7 @@ mobs:spawn({
 	active_object_count = 2,
 	max_height = 0,
 --	on_spawn = rat_spawn,
+	chance = 15000,
 })
 
 

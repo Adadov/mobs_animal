@@ -94,9 +94,10 @@ mobs:spawn({
 	name = "mobs_animal:chicken",
 	nodes = {spawn_on},
 	min_light = 10,
-	chance = 15000,
+	chance = 5000,
 	active_object_count = 2,
 	min_height = 0,
+	max_height = 20,
 	day_toggle = true,
 })
 
