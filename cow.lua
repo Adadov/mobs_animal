@@ -110,9 +110,9 @@ mobs:spawn({
 	name = "mobs_animal:cow",
 	nodes = {spawn_on},
 	min_light = 10,
-	chance = 15000,
-	min_height = 0,
-	max_height = 20,
+	chance = mobs_animal.cow.chance,
+	min_height = mobs_animal.cow.y_min,
+	max_height = mobs_animal.cow.y_max,
 	day_toggle = true,
 })
 

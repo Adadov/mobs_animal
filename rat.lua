@@ -69,11 +69,12 @@ end
 mobs:spawn({
 	name = "mobs_animal:rat",
 	nodes = {"default:stone"},
-	min_light = 3,
 	active_object_count = 2,
-	max_height = 0,
+	min_light = 3,
+	chance = mobs_animal.rat.chance,
+	min_height = mobs_animal.rat.y_min,
+	max_height = mobs_animal.rat.y_max,
 --	on_spawn = rat_spawn,
-	chance = 15000,
 })
 
 

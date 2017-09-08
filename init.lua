@@ -8,6 +8,8 @@ mobs.intllib = S
 
 -- Animals
 
+dofile(modpath .. "/config.lua")
+
 dofile(path .. "/chicken.lua") -- JKmurray
 dofile(path .. "/cow.lua") -- KrupnoPavel
 dofile(path .. "/rat.lua") -- PilzAdam

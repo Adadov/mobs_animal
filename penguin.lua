@@ -61,9 +61,9 @@ mobs:spawn({
 	name = "mobs_animal:penguin",
 	nodes = {"default:snowblock"},
 	min_light = 10,
-	chance = 5000,
-	min_height = 0,
-	max_height = 20,
+	chance = mobs_animal.penguin.chance,
+	min_height = mobs_animal.penguin.y_min,
+	max_height = mobs_animal.penguin.y_max,
 	day_toggle = true,
 })
 
